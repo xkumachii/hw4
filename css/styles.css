@@ -1,0 +1,118 @@
+body {
+    background-color:#000066;
+    color:white;
+}
+
+h1 {
+    color: #00FF00;
+    font-family: courier;
+    font-size: 3.5em;
+    margin-bottom: 0px;
+}
+
+#not_home {
+    color: #00FFFF;
+    font-family: courier;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+nav a {
+    padding: 5px; /*new css property*/
+    color: violet;
+    
+}
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    color: red;
+}
+
+.current {
+    color: #ffffff;
+}
+
+.link {
+    background-color: purple;
+}
+
+#explanation {
+    color: black;
+    background-color: violet;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    padding: 10px;
+    margin: 0px auto;
+}
+
+footer {
+    font-size:10px;
+    color:yellow;
+}
+
+.description {
+    font-size:0.8em;
+    color: #00FFFF;
+    border-style: solid; /*new css property*/
+    border-width:3px; /*new css property*/
+    border-color:#FFFFFF; /*new css property*/
+}
+
+.emphasis {
+    font-size:1.3em;
+}
+
+strong.emphasis:hover {
+    font-size: 1.6em;
+    text-decoration: underline; /*new css property*/
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+li {
+    border-style: inset;
+    border-width:1px;
+    border-color:#000000; 
+    
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.site {
+    color: blue;
+}

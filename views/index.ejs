@@ -1,0 +1,30 @@
+<% include partials/header.ejs %>        
+        <main>
+            
+            <figure>
+                <img src = '<%=image%>' width = "500" alt = "not actual programming language">
+                <p class = "description"> pictured here: not a programming languagem but <%=text%> the cat. </p>
+            </figure>
+            
+            <div id = "explanation">
+                <p>
+                    A <strong class = "emphasis">programming language</strong> is a vocabulary and set of grammatical rules 
+                    <br>
+                    for instructing a computer or computing device to perform specific tasks.
+                </p>
+                
+                <p>
+                    There are multiple levels of programming languages, each 
+                    <br>
+                    level being one abstraction away from hardware.
+                </p>
+                
+            <form class = "NEXT!" action = "/machinecode"> <!--new html tag 1-->
+                <input type = "submit" value = "Next!" />
+            </form>
+            
+            </div>
+            
+
+        </main>
+<% include partials/footer.ejs %>
